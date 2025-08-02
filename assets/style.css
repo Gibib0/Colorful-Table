@@ -14,3 +14,11 @@ table {
 th, tr, td {
 	border: 2px solid blue;
 }
+
+thead {
+	background-color: rgb(253, 195, 172);
+}
+
+td:first-child {
+	background-color: aqua;
+}
