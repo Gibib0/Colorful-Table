@@ -16,7 +16,7 @@ th, tr, td {
 }
 
 thead {
-	background-color: rgb(253, 195, 172);
+	background-color: rgb(255, 234, 195);
 }
 
 td:first-child {
@@ -25,4 +25,12 @@ td:first-child {
 
 tr:last-child td {
 	background-color: rgb(252, 135, 106);
+}
+
+tbody tr:nth-child(2n) {
+	background-color: rgb(204, 204, 204);
+}
+
+tbody tr:nth-child(2n+1) {
+	background-color: rgb(211, 186, 109);
 }
