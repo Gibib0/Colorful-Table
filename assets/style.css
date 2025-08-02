@@ -1,5 +1,6 @@
 caption {
 	color: red;
+	font-size: 25px;
 }
 
 caption::after {
