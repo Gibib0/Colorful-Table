@@ -22,3 +22,7 @@ thead {
 td:first-child {
 	background-color: aqua;
 }
+
+tr:last-child td {
+	background-color: rgb(252, 135, 106);
+}
